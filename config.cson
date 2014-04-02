@@ -1,0 +1,31 @@
+'editor':
+  'showIndentGuide': true
+  'fontSize': 14
+'core':
+  'themes': [
+    'atom-dark-ui-slim'
+    'Pastel'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'disabledPackages': [
+    'vim-mode'
+    'autocomplete-plus'
+  ]
+'exception-reporting':
+  'userId': 'be348b3b-c7b7-c251-1278-eee5f3b3ddd5'
+'release-notes':
+  'viewedVersion': '0.81.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'f6cbaad22b5bb34f185e0b57f5612f7b3483d967'
+'tree-view':
+  'hideVcsIgnoredFiles': true
+'autoclose-html':
+  'closeOnEndOfOpeningTag': true
+  'makeNeverCloseElementsSelfClosing': true
+  'ignoreGrammar': true
