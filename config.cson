@@ -1,6 +1,10 @@
 'editor':
   'showIndentGuide': true
   'fontSize': 14
+<<<<<<< HEAD
+=======
+  'showInvisibles': true
+>>>>>>> aasdf
 'core':
   'themes': [
     'atom-dark-ui-slim'
@@ -12,16 +16,26 @@
     '.DS_Store'
   ]
   'disabledPackages': [
+<<<<<<< HEAD
     'vim-mode'
     'autocomplete-plus'
   ]
 'exception-reporting':
   'userId': 'be348b3b-c7b7-c251-1278-eee5f3b3ddd5'
+=======
+    'autocomplete-plus'
+    'vim-mode'
+  ]
+  'destroyEmptyPanes': true
+'exception-reporting':
+  'userId': 'a24d9854-7b8d-354c-32b6-9c2401581c0e'
+>>>>>>> aasdf
 'release-notes':
   'viewedVersion': '0.81.0'
 'welcome':
   'showOnStartup': false
 'metrics':
+<<<<<<< HEAD
   'userId': 'f6cbaad22b5bb34f185e0b57f5612f7b3483d967'
 'tree-view':
   'hideVcsIgnoredFiles': true
@@ -29,3 +43,33 @@
   'closeOnEndOfOpeningTag': true
   'makeNeverCloseElementsSelfClosing': true
   'ignoreGrammar': true
+=======
+  'userId': 'fc3e8a6cc7a3cec0a0b91645e9df964c9105a005'
+'spell-check':
+  'grammars': [
+    'source.gfm'
+    'text.git-commit'
+    'text.plain'
+  ]
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
+'tree-view':
+  'hideVcsIgnoredFiles': true
+  'hideIgnoredNames': true
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
+'autoprefixer':
+  'browsers': [
+    '> 1%'
+    'last 2 versions'
+    'Firefox ESR'
+    'Opera 12.1'
+  ]
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
+'runner':
+  'extensions':
+    'spec.js': 'mocha'
+'git-diff':
+  'showIconsInEditorGutter': true
+>>>>>>> aasdf

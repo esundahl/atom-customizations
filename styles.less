@@ -8,8 +8,35 @@
  * http://www.lesscss.org
  */
 
+<<<<<<< HEAD
 .tree-view {
 
+=======
+ ////////////
+ // Colors //
+ ////////////
+
+ @lightgray: #D0D0D0;
+ @darkgray: #262626;
+ @gray: #999999;
+ @black: #1C1C1C;
+ @white: #e6e6e6;
+ @orange: #D7AF87;
+ @yellow: #DBCF80;
+ @green: #AED686;
+ @blue: #86AED6;
+ @purple: #D6AED6;
+ @red: #D68686;
+
+ @syntax-color-modified: @orange;
+ @syntax-color-added: @green;
+ @syntax-color-removed: @red;
+
+
+
+.tree-view {
+  background-color: @black;
+>>>>>>> aasdf
 }
 
 .editor {
@@ -20,6 +47,7 @@
 }
 
 
+<<<<<<< HEAD
 // Scrollbar Styles
 ::-webkit-scrollbar { width: 12px; }
 ::-webkit-scrollbar-track {
@@ -34,3 +62,96 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive { background: rgba(134,174,214,0.4); }
+=======
+
+.error-messages { color: @red; }
+.popover-list .selected,
+.select-list .selected,
+.list-item.selected,
+.list-tree .list-item.selected { background-color: @blue !important; }
+
+//////////////////
+// Text Classes //
+//////////////////
+
+.text-subtle {}
+.text-highlight {}
+.text-info { color: @blue; }
+.text-success { color: @green; }
+.text-warning { color: @orange; }
+.text-error { color: @red; }
+
+.highlight {}
+.highlight-info { color: @blue; background: darken(@blue, 30) }
+.highlight-success { color: @green; background: darken(@green, 30) }
+.highlight-warning { color: @orange; background: darken(@orange, 30) }
+.highlight-error { color: @red; background: darken(@red, 30) }
+
+/////////////////////////
+// Git Related Classes //
+/////////////////////////
+
+.status-ignored,
+.status-ignored  > .list-item{ color: @gray !important; }
+
+.status-added,
+.status-added > .list-item { color: @blue !important; }
+
+.status-modified,
+.status-modified > .list-item, { color: @orange !important; }
+
+.status-removed,
+.status-removed > .list-item { color: @red !important; }
+
+.status-renamed,
+.status-renamed > .list-item { color: @green !important;  }
+
+////////////////
+// List Group //
+////////////////
+
+.list-group {
+  .selected {}
+  .text-subtle { color: @gray !important; }
+  .text-info { color: @blue !important; }
+  .text-success { color: @green !important; }
+  .text-warning { color: @orange !important; }
+  .text-error { color: @red !important; }
+}
+
+//////////////////////
+// Markdown Styles //
+/////////////////////
+
+.markdown-preview {
+  background: @black;
+  color: @white;
+  font-family: 'Open Sans', 'Museo Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 20px;
+
+  a { color: @blue; }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: @white;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid lighten(@darkgray, 10);
+  }
+
+  ul {
+    list-style: square;
+  }
+
+  li {
+    font-family: 'Museo Sans';
+  }
+
+}
+>>>>>>> aasdf

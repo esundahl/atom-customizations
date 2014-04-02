@@ -16,3 +16,8 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+<<<<<<< HEAD
+=======
+# '.workspace':
+#   'cmd-s': 'make-runner:run'
+>>>>>>> aasdf
